@@ -261,8 +261,8 @@ header .line {
 }
 
 header .btn-outline-light {
-  position: relative;
-  top: 5%;
+  position: absolute;
+  top: 70%;
   font-size: 13px;
   padding: 7px 30px;
   border: 1px solid #ffa807;
@@ -274,11 +274,11 @@ header .btn-outline-light {
 
 header .ti-chevron-down {
   position: absolute;
-  left: 50%;
-  top: 94%;
+  left: 45%;
+  top: 92%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   font-size: 26px;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
   color: white;
   padding: 5px;
   background-color: rgba(255, 255, 255, 0.185);
@@ -550,6 +550,12 @@ footer .ti-brand-facebook {
   background-color: #fff;
 }
 
+@media (min-width: 500px) {
+  header .ti-chevron-down {
+    left: 47%;
+  }
+}
+
 @media (min-width: 768px) {
   nav .nav-link {
     font-size: 17px;
@@ -570,6 +576,9 @@ footer .ti-brand-facebook {
   }
   header p {
     font-size: 28px;
+  }
+  header .ti-chevron-down {
+    left: 48%;
   }
 }
 
@@ -617,6 +626,9 @@ footer .ti-brand-facebook {
   header .btn-outline-light {
     font-size: 20px;
     padding: 7px 50px;
+  }
+  header .ti-chevron-down {
+    left: 48.5%;
   }
 }
 /*# sourceMappingURL=style.css.map */
