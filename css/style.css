@@ -120,10 +120,12 @@
 
 html {
   scroll-padding-top: 44.5px;
+  font-size: 62.5%;
 }
 
 body {
   position: relative;
+  font-size: 1.6rem;
   font-family: "Roboto", sans-serif;
   background-color: #ebecf2;
 }
@@ -261,8 +263,8 @@ header .line {
 }
 
 header .btn-outline-light {
-  position: absolute;
-  top: 70%;
+  position: relative;
+  top: 15%;
   font-size: 13px;
   padding: 7px 30px;
   border: 1px solid #ffa807;
@@ -274,11 +276,11 @@ header .btn-outline-light {
 
 header .ti-chevron-down {
   position: absolute;
-  left: 45%;
-  top: 92%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  left: 48%;
+  top: 94%;
   font-size: 26px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   color: white;
   padding: 5px;
   background-color: rgba(255, 255, 255, 0.185);
@@ -550,54 +552,45 @@ footer .ti-brand-facebook {
   background-color: #fff;
 }
 
-@media (min-width: 500px) {
-  header .ti-chevron-down {
-    left: 47%;
-  }
-}
-
 @media (min-width: 768px) {
   nav .nav-link {
-    font-size: 17px;
+    font-size: 12px;
   }
   nav .navbar-brand {
     font-size: 28px;
   }
   nav .ti-menu-2 {
-    font-size: 55px;
+    font-size: 35px;
     padding: 20px 0;
   }
   header h1 {
-    font-size: 56px;
+    font-size: 40px;
   }
   header .line {
     width: 100px;
     border: 2px solid #ff5607;
   }
   header p {
-    font-size: 28px;
-  }
-  header .ti-chevron-down {
-    left: 48%;
+    font-size: 18px;
   }
 }
 
 @media (min-width: 1024px) {
   nav .nav-link {
-    font-size: 18px;
+    font-size: 13px;
   }
   nav .navbar-brand {
-    font-size: 28px;
+    font-size: 25px;
   }
   header h1 {
-    font-size: 65px;
+    font-size: 45px;
   }
   header .line {
     width: 120px;
     border: 2px solid #ff5607;
   }
   header p {
-    font-size: 28px;
+    font-size: 20px;
   }
 }
 
@@ -626,9 +619,6 @@ footer .ti-brand-facebook {
   header .btn-outline-light {
     font-size: 20px;
     padding: 7px 50px;
-  }
-  header .ti-chevron-down {
-    left: 48.5%;
   }
 }
 /*# sourceMappingURL=style.css.map */
